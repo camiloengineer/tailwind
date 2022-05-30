@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposividad con tailwind</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mx-auto mt-5">
+  		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
+	    	<!-- Primer Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 1
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+			<!-- Segundo Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 2
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Tercer Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 3
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Cuarto Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 4
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+			<!-- Quinto Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 5
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Sexto Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 6
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Séptimo Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 7
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+			<!-- Octavo Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 8
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Noveno Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 9
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Décimo Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 10
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+			<!-- Onceavo Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 11
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+
+	        <!-- Doceavo Card -->
+	        <div class="shadow-lg rounded-2xl bg-white w-64 m-auto p-2">
+	            <img src="https://www.tailwind-kit.com/images/object/3.png" alt="adidas" class="w-32 p-4 h-36 m-auto" />
+	            <div class="bg-pink-200 m-3 p-4 rounded-lg">
+	                <p class="text-white text-xl font-bold ">
+	                    Adidas 12
+	                </p>
+	                <p class="text-gray-50 text-xs">
+	                    Live your dream
+	                </p>
+	                <div class="flex items-center justify-between ">
+	                    <p class="text-white">
+	                        $98.00
+	                    </p>
+	                    <button type="button"
+	                        class="w-10 h-10 text-base font-medium rounded-full text-white bg-pink-500 hover:bg-pink-700">
+	                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="mx-auto" fill="white"
+	                            viewBox="0 0 1792 1792">
+	                            <path
+	                                d="M1600 736v192q0 40-28 68t-68 28h-416v416q0 40-28 68t-68 28h-192q-40 0-68-28t-28-68v-416h-416q-40 0-68-28t-28-68v-192q0-40 28-68t68-28h416v-416q0-40 28-68t68-28h192q40 0 68 28t28 68v416h416q40 0 68 28t28 68z">
+	                            </path>
+	                        </svg>
+	                    </button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>  
+    </div>
+</body>
+
+</html>
